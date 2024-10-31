@@ -1,15 +1,11 @@
 package servlets.movieServlet;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import org.apache.commons.text.StringEscapeUtils;
-
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import org.apache.commons.text.StringEscapeUtils;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +28,11 @@ public class MovieServlet extends HttpServlet {
         response.setContentType("text/html");
         response.setStatus(HttpServletResponse.SC_OK);
         PrintWriter out = response.getWriter();
-        // FILL IN CODE to create a response (html with movies
+        // FILL IN CODE to create a response (html with movies)
+
+        // Once the first step is complete, check if the request contains a search parameter
+        // so that you only show movies whose title contains the keyword
+
 
 
     }

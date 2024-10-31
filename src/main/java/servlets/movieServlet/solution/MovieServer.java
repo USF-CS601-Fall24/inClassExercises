@@ -1,9 +1,8 @@
-package servlets.movieServlet;
+package servlets.movieServlet.solution;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-
 
 public class MovieServer {
     public static final int PORT = 6500;
